@@ -1,0 +1,7 @@
+/dist/
+/opencode-session
+/opencode-session.exe
+/.tools/
+/.vscode/
+*.test
+*.out

@@ -32,7 +32,7 @@ go build -trimpath -o opencode-session .
 After the repository is published, Go users can also install it with:
 
 ```sh
-go install github.com/lh/opencode-session@latest
+go install github.com/MuZiHeAn/opencode-session@latest
 ```
 
 Run it:
@@ -164,7 +164,7 @@ repository, commits, pushes `main`, and pushes a `v0.1.0` tag that triggers
 the release workflow. Use `-SkipTag` to push without tagging, or
 `-Version v0.2.0` to pick a different tag.
 
-The module path is `github.com/lh/opencode-session`. If you publish under a
+The module path is `github.com/MuZiHeAn/opencode-session`. If you publish under a
 different GitHub owner, update `go.mod` and the imports under `internal/`.
 
 See `examples/` for Windows and systemd launch examples.

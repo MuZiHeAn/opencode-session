@@ -26,7 +26,7 @@ go build -trimpath -o opencode-session .
 仓库发布后，Go 用户也可以直接安装：
 
 ```sh
-go install github.com/lh/opencode-session@latest
+go install github.com/MuZiHeAn/opencode-session@latest
 ```
 
 启动：
@@ -148,7 +148,7 @@ Windows 下也可以直接运行：
 `v0.1.0` 标签触发 Release 构建。`-SkipTag` 可以只推送不发布，
 `-Version v0.2.0` 可以指定其他版本号。
 
-当前 module path 是 `github.com/lh/opencode-session`。如果发布到其他 GitHub
+当前 module path 是 `github.com/MuZiHeAn/opencode-session`。如果发布到其他 GitHub
 账号，需要同步修改 `go.mod` 和 `internal/` 下的 import 前缀。
 
 Windows 与 systemd 启动示例见 `examples/`。
